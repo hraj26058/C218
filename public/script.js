@@ -115,7 +115,7 @@ $(function () {
             to: to
         }
         $.ajax({
-            url: "/send-email",
+            url: "/send-mail",
             type: "post",
             data: JSON.stringify(data),
             dataType: 'json',
